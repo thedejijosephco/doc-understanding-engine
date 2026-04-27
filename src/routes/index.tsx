@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 
+// Design system preview
 export const Route = createFileRoute("/")({
   component: Index,
 });
